@@ -4,9 +4,6 @@ from urllib.request import urlopen
 import mysql.connector as mysql
 from bs4 import BeautifulSoup
 
-from tkinter import ttk
-import tkinter as tk
-
 conexion= mysql.connect(host='localhost',user='root',passwd='',db='based')
 operacion = conexion.cursor()
 
